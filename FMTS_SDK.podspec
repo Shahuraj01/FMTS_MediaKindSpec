@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks    = "asid_ott_sdk.framework"
     spec.platform               = :ios
     spec.swift_version          = "4.2"
-    spec.ios.deployment_target  = '14.5'
+    spec.ios.deployment_target  = '12.0'
 end
