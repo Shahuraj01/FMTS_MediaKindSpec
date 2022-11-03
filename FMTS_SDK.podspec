@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     DESC
     spec.homepage               = "https://www.mediakind.net"
     spec.author                 = { "MediaKind" => "support@mediakind.com" }
-    spec.source                 = { :git => "https://github.com/Shahuraj01/FMTS_MediaKind.git", :tag => "#{spec.version}" }
+    spec.source                 = { :git => "https://github.com/Shahuraj01/FMTS_MediaKind.git",:branch => 'master', :tag => "#{spec.version}" }
     spec.vendored_frameworks    = "asid_ott_sdk.framework"
     spec.platform               = :ios
     spec.swift_version          = "4.2"
