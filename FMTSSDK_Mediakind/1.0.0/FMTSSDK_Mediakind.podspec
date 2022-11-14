@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.name         = "FMTSSDK_Mediakind"
     spec.version      = "1.0.0"
     spec.summary      = "FMTS SDK used to get watermarking-protected image."
-    spec.summary                = "OMSDK_Turner is designed to facilitate  viewability and verification measurement for ads served to mobile app environments."
+    spec.summary                = "FMTS SDK is designed to facilitate  viewability and verification measurement for ads served to mobile app environments."
     spec.description            = <<-DESC
     FMTS SDK used to get watermarking-protected image. overlays to video content in order to identify when content is copied and distributed online..
     DESC
