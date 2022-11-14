@@ -11,10 +11,10 @@ Pod::Spec.new do |spec|
     spec.license      = "Commercial"
     spec.author       = { "MediaKind" => "support@mediakind.com" }
 
-    spec.platform     = :ios, "14.2"
+    spec.platform     = :ios, "12.0"
     spec.platform     = :tvos, "15.0"
 
-    spec.ios.deployment_target = "14.2"
+    spec.ios.deployment_target = "12.0"
     spec.tvos.deployment_target = "15.0"
 
     spec.source       =  { :git => "https://github.com/mkplayer-ios/FMTSSDK_Mediakind.git", :tag => "#{spec.version}" }
